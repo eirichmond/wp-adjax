@@ -6,11 +6,11 @@
 		
 		
 		jQuery.post(
-			gdpr_object.ajax_url,
+			script_object.ajax_url,
 			{
 				// wp ajax action
 				action : 'action_hook_function_name',
-				nextNonce : gdpr_object.nextNonce,
+				nextNonce : script_object.nextNonce,
 				consent : true,
 			},
 			
